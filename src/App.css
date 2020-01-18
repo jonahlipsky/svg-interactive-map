@@ -36,3 +36,10 @@
     transform: rotate(360deg);
   }
 }
+
+#main-map-image{
+  width: 25%;
+  height: auto;
+  background: gray;
+  padding: 10px;
+}
