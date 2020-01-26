@@ -43,3 +43,10 @@
   background: gray;
   padding: 10px;
 }
+
+.cls-1{
+  fill: none;
+  stroke:red;
+  stroke-miterlimit:10;
+  transform: scale(0.5);
+}
