@@ -45,8 +45,34 @@
 }
 
 .cls-1{
-  fill: none;
-  stroke:red;
   stroke-miterlimit:10;
+  fill: lightgray;
+  stroke: gray;
   transform: scale(0.5);
+}
+
+.selected{
+  fill: red;
+}
+
+.hover{
+  stroke: green;
+}
+
+.hidden{
+  opacity: 0;
+}
+
+.shown{
+  opacity: 1;
+}
+
+#pointer{
+  width: 100px;
+  height: 100px;
+  background: red;
+  border: 3px solid blue;
+  position: absolute;
+  /* left: 450px; */
+  /* top: 400px; */
 }

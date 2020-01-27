@@ -6,10 +6,9 @@ import Map from './components/map';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        {/* <img src={logo} className="App-logo" alt="logo" /> */}
+      <div className="App-header">
         <Map />
-      </header>
+      </div>
     </div>
   );
 }
