@@ -48,15 +48,15 @@
   stroke-miterlimit:10;
   fill: lightgray;
   stroke: gray;
-  transform: scale(0.5);
+  /* transform: scale(0.5); */
 }
 
 .selected{
-  fill: red;
+  fill: darkblue;
 }
 
 .hover{
-  stroke: green;
+  stroke: lightgreen;
 }
 
 .hidden{
@@ -68,11 +68,15 @@
 }
 
 #pointer{
-  width: 100px;
-  height: 100px;
-  background: red;
-  border: 3px solid blue;
+  width: 200px;
+  height: 30px;
+  background: darkgray;
+  border: 1px solid gray;
   position: absolute;
-  /* left: 450px; */
-  /* top: 400px; */
+}
+
+svg{
+  width: 400px;
+  height: auto;
+  position: center;
 }

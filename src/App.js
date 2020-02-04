@@ -6,9 +6,9 @@ import Map from './components/map';
 function App() {
   return (
     <div className="App">
-      <div className="App-header">
-        <Map />
-      </div>
+      {/* <div className="App-header">
+      </div> */}
+      <Map />
     </div>
   );
 }

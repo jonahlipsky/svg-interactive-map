@@ -10,6 +10,7 @@ class Pointer extends React.Component{
 
   componentDidMount(){
     document.onmousemove = e => {
+      // debugger
       document.getElementById("pointer").style.left = e.screenX + "px"
       document.getElementById("pointer").style.top = e.screenY - 80 + "px"
     }
