@@ -44,7 +44,7 @@
   padding: 10px;
 }
 
-.cls-1{
+path{
   stroke-miterlimit:10;
   fill: lightgray;
   stroke: gray;

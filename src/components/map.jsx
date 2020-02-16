@@ -16,13 +16,13 @@ class Map extends React.Component {
   componentDidMount(){
     let context = this
 
-    d3.selectAll(".cls-1").on("mouseenter", function(d, i){
+    d3.selectAll("path").on("mouseenter", function(d, i){
       context.toggleHover(this)
     })
-    d3.selectAll(".cls-1").on("mouseleave", function(){
+    d3.selectAll("path").on("mouseleave", function(){
       context.toggleHover(this)
     })
-    d3.selectAll(".cls-1").on("click", function(){
+    d3.selectAll("path").on("click", function(){
       context.toggleSelection(this)
     })
   }
