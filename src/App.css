@@ -48,7 +48,6 @@ path{
   stroke-miterlimit:10;
   fill: lightgray;
   stroke: gray;
-  /* transform: scale(0.5); */
 }
 
 .selected{
