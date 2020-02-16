@@ -2,6 +2,7 @@ import React from 'react';
 import * as d3 from "d3";
 import Pointer from './pointer';
 import MapSvg from './map_svg';
+import Link from './link_component/link';
 
 class Map extends React.Component {
 
@@ -50,6 +51,7 @@ class Map extends React.Component {
       <>
         <MapSvg/>
         <Pointer hover={this.state.hover} hoverItem={this.state.hoverItem}/>
+        <Link>
       </>
     )
   }
