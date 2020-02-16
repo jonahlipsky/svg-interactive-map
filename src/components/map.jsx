@@ -51,7 +51,7 @@ class Map extends React.Component {
       <>
         <MapSvg/>
         <Pointer hover={this.state.hover} hoverItem={this.state.hoverItem}/>
-        <Link>
+        <Link/>
       </>
     )
   }
